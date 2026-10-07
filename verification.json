@@ -1,0 +1,138 @@
+{
+  "format_version": 1,
+  "passed": true,
+  "checked_utc": "2026-10-07T07:38:05.318888+00:00",
+  "scope": "Targeted Android build, runtime, update, input, lifecycle and resource checks on specified emulators, plus automated regression checks. Not a guarantee for every device.",
+  "application": {
+    "package": "org.aerogrid.modularracing",
+    "version_name": "1.1.0",
+    "version_code": 2
+  },
+  "minimum_android": "7.0",
+  "minimum_sdk": 24,
+  "target_sdk": 36,
+  "graphics_requirement": "OpenGL ES 3.0",
+  "permissions": [],
+  "signing_certificate_sha256": "f30cc94883cd16d503d1f6a6cea3b6f0d01d904319c3a3c7ff451a00da1ec28d",
+  "artifacts": [
+    {
+      "filename": "AEROGRID-android-arm64.apk",
+      "bytes": 254372553,
+      "sha256": "39a2b9988ff103e3cfacb25eb7c2e7004b9e54bcfe7d9b33cbfc7f654e92106b",
+      "architectures": [
+        "arm64-v8a"
+      ],
+      "original_signature_verified": true,
+      "packaged_resources_verified": 255
+    },
+    {
+      "filename": "AEROGRID-android-x86_64.apk",
+      "bytes": 255728323,
+      "sha256": "e1a906177f48fa1b882964fc21e93b777e3231b9d0bead3236de0059fa69299f",
+      "architectures": [
+        "x86_64"
+      ],
+      "original_signature_verified": true,
+      "packaged_resources_verified": 255
+    },
+    {
+      "filename": "AEROGRID-android-arm32.apk",
+      "bytes": 255806157,
+      "sha256": "814caca17e2aea7b423474541afa583719c54f8e950cf88cdec33f68288de083",
+      "architectures": [
+        "armeabi-v7a"
+      ],
+      "original_signature_verified": true,
+      "packaged_resources_verified": 255
+    },
+    {
+      "filename": "AEROGRID-android-universal.apk",
+      "bytes": 332762252,
+      "sha256": "efd542d14e3f725ad474c4b16593cf19e4748bd62f98c53cf815d8da52b90d2b",
+      "architectures": [
+        "armeabi-v7a",
+        "arm64-v8a",
+        "x86",
+        "x86_64"
+      ],
+      "original_signature_verified": true,
+      "packaged_resources_verified": 255
+    }
+  ],
+  "automated_checks": {
+    "game_regression_suites": 10,
+    "game_regression_checks": 1185,
+    "game_regression_failures": 0,
+    "python_build_and_download_tests": 37,
+    "python_failures": 0,
+    "public_gt_geometry_and_driving_checks": 97,
+    "public_gt_failures": 0,
+    "expected_corrupt_save_fixture_parse_errors": "Expected ConfigFile errors from deliberately damaged fixtures; no unexpected script or engine errors."
+  },
+  "android_runtime": [
+    {
+      "android": "7.0",
+      "api": 24,
+      "cpu_abi": "x86",
+      "device_kind": "isolated emulator",
+      "graphics": "Hardware accelerated; host NVIDIA RTX 3060",
+      "install_final_universal_apk": "passed",
+      "initial_functional_run": [
+        "actual accelerator touch",
+        "quality and 30/60 target selection",
+        "Back pause freezes timer",
+        "credits Back and first reused pointer",
+        "Home return remains paused until explicit resume",
+        "no stale accelerator on resume",
+        "graphics preferences persist after force-stop"
+      ],
+      "runtime_basis": "Functional run used identical game payloads before a local preparation report was removed; final APK installed, launched and passed targeted input, pause and retained-settings checks.",
+      "final_apk_smoke_checks": [
+        "original-signature update install and startup succeeded",
+        "low/30 preferences preserved",
+        "actual accelerator touch reaches 101 km/h",
+        "Back pause freezes timer at 4.399 seconds across two seconds"
+      ]
+    },
+    {
+      "android": "15",
+      "api": 35,
+      "cpu_abi": "x86_64",
+      "device_kind": "isolated emulator",
+      "graphics": "Hardware accelerated; host NVIDIA RTX 3060",
+      "install_final_universal_apk": "passed",
+      "update_from_original_signed_1_0_0": "passed",
+      "stored_career_fields_preserved": 16,
+      "update_fixture": "Explicit synthetic progress fixture, then an upgrade changed and saved by the original app; not real completed races.",
+      "functional_checks": [
+        "actual accelerator touch and simultaneous throttle/steering",
+        "low/high quality and 30/60 targets",
+        "graphics preferences survive cold start and final update",
+        "Back pause freezes timer",
+        "Home return remains paused",
+        "credits Back and first touch reuse",
+        "background while garage or credits open keeps pause"
+      ],
+      "final_apk_smoke_checks": [
+        "actual touch reaches 150 km/h",
+        "Back freezes timer at 7.016 seconds",
+        "background return stays paused",
+        "all 16 progress fields and high/60 preference preserved"
+      ]
+    }
+  ],
+  "artifact_privacy_review": {
+    "passed": true,
+    "no_development_reports_player_saves_signing_secrets_or_local_project_paths": true,
+    "all_four_architectures_share_identical_game_payloads": true,
+    "native_libraries_match_official_godot_template": true
+  },
+  "known_limits": [
+    "No physical ARM64 or ARM32 phone has been tested. Device FPS, heat, memory pressure and touch feel remain unverified.",
+    "Legacy SwiftShader 4.0.0.1 software graphics failed shader linking. A direct reproduction confirmed its UBO/register limitation. Use emulator hardware graphics; lowering the game quality does not repair this software-driver issue.",
+    "Each hardware-accelerated emulator recorded a stale shader-cache rebuild warning during update. No script error, crash or ANR was observed in the final specified runtime runs.",
+    "30/60 FPS controls specify a target, not a promise that every phone sustains that rate.",
+    "ARM32/x86 native libraries target legacy 4 KB page devices; 16 KB alignment is verified for 64-bit ABIs only."
+  ],
+  "asset_substitution": "Public build uses original AEROGRID GT geometry, with the original internal vehicle ID, game performance and save compatibility. The original reference model is not publicly distributed."
+}

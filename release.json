@@ -1,0 +1,110 @@
+{
+  "format_version": 1,
+  "package": "org.aerogrid.modularracing",
+  "version_name": "1.1.0",
+  "version_code": 2,
+  "minimum_sdk": 24,
+  "minimum_android": "7.0",
+  "opengl_es": "3.0",
+  "offline": true,
+  "signing_certificate_sha256": "f30cc94883cd16d503d1f6a6cea3b6f0d01d904319c3a3c7ff451a00da1ec28d",
+  "credits": "assets/legal/CREDITS.txt",
+  "artifacts": [
+    {
+      "package": "org.aerogrid.modularracing",
+      "version_name": "1.1.0",
+      "version_code": 2,
+      "minimum_sdk": 24,
+      "target_sdk": 36,
+      "opengl_es": "3.0",
+      "architectures": [
+        "armeabi-v7a",
+        "arm64-v8a",
+        "x86",
+        "x86_64"
+      ],
+      "bytes": 332762252,
+      "sha256": "efd542d14e3f725ad474c4b16593cf19e4748bd62f98c53cf815d8da52b90d2b",
+      "permissions": [],
+      "signing_certificate_sha256": "f30cc94883cd16d503d1f6a6cea3b6f0d01d904319c3a3c7ff451a00da1ec28d",
+      "signature_verified": true,
+      "zip_alignment_16k_verified": true,
+      "native_library_16k_verified": true,
+      "filename": "AEROGRID-android-universal.apk",
+      "architecture": "universal",
+      "path": "downloads/AEROGRID-android-universal.apk",
+      "bundled": false,
+      "download_url": "https://github.com/tentenbyte/aerogrid-android-downloads/releases/download/android-v1.1.0/AEROGRID-android-universal.apk"
+    },
+    {
+      "package": "org.aerogrid.modularracing",
+      "version_name": "1.1.0",
+      "version_code": 2,
+      "minimum_sdk": 24,
+      "target_sdk": 36,
+      "opengl_es": "3.0",
+      "architectures": [
+        "arm64-v8a"
+      ],
+      "bytes": 254372553,
+      "sha256": "39a2b9988ff103e3cfacb25eb7c2e7004b9e54bcfe7d9b33cbfc7f654e92106b",
+      "permissions": [],
+      "signing_certificate_sha256": "f30cc94883cd16d503d1f6a6cea3b6f0d01d904319c3a3c7ff451a00da1ec28d",
+      "signature_verified": true,
+      "zip_alignment_16k_verified": true,
+      "native_library_16k_verified": true,
+      "filename": "AEROGRID-android-arm64.apk",
+      "architecture": "arm64",
+      "path": "downloads/AEROGRID-android-arm64.apk",
+      "bundled": false,
+      "download_url": "https://github.com/tentenbyte/aerogrid-android-downloads/releases/download/android-v1.1.0/AEROGRID-android-arm64.apk"
+    },
+    {
+      "package": "org.aerogrid.modularracing",
+      "version_name": "1.1.0",
+      "version_code": 2,
+      "minimum_sdk": 24,
+      "target_sdk": 36,
+      "opengl_es": "3.0",
+      "architectures": [
+        "armeabi-v7a"
+      ],
+      "bytes": 255806157,
+      "sha256": "814caca17e2aea7b423474541afa583719c54f8e950cf88cdec33f68288de083",
+      "permissions": [],
+      "signing_certificate_sha256": "f30cc94883cd16d503d1f6a6cea3b6f0d01d904319c3a3c7ff451a00da1ec28d",
+      "signature_verified": true,
+      "zip_alignment_16k_verified": true,
+      "native_library_16k_verified": false,
+      "filename": "AEROGRID-android-arm32.apk",
+      "architecture": "arm32",
+      "path": "downloads/AEROGRID-android-arm32.apk",
+      "bundled": false,
+      "download_url": "https://github.com/tentenbyte/aerogrid-android-downloads/releases/download/android-v1.1.0/AEROGRID-android-arm32.apk"
+    },
+    {
+      "package": "org.aerogrid.modularracing",
+      "version_name": "1.1.0",
+      "version_code": 2,
+      "minimum_sdk": 24,
+      "target_sdk": 36,
+      "opengl_es": "3.0",
+      "architectures": [
+        "x86_64"
+      ],
+      "bytes": 255728323,
+      "sha256": "e1a906177f48fa1b882964fc21e93b777e3231b9d0bead3236de0059fa69299f",
+      "permissions": [],
+      "signing_certificate_sha256": "f30cc94883cd16d503d1f6a6cea3b6f0d01d904319c3a3c7ff451a00da1ec28d",
+      "signature_verified": true,
+      "zip_alignment_16k_verified": true,
+      "native_library_16k_verified": true,
+      "filename": "AEROGRID-android-x86_64.apk",
+      "architecture": "x86_64",
+      "path": "downloads/AEROGRID-android-x86_64.apk",
+      "bundled": false,
+      "download_url": "https://github.com/tentenbyte/aerogrid-android-downloads/releases/download/android-v1.1.0/AEROGRID-android-x86_64.apk"
+    }
+  ],
+  "validation_limits": "Installation requirements do not guarantee performance on every phone"
+}

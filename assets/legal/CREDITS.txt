@@ -1,0 +1,62 @@
+AEROGRID · 模块竞速 Android 1.1.0 — 素材署名与许可
+
+免费、无广告的非商业游戏。公开下载版采用原创 AEROGRID GT 外观；第三方素材许可分别适用。赛车品牌与本游戏没有关联或背书关系。
+
+FREE - McLaren P1 MSO
+作者：bohmerang
+许可：Creative Commons Attribution-NonCommercial 4.0
+许可地址：https://creativecommons.org/licenses/by-nc/4.0/
+来源：https://sketchfab.com/3d-models/free-mclaren-p1-mso-c7687064e08c4be9a0af88e98bcf0a8e
+修改：尺寸归一、接地及朝向修正、轮组简化、材质分组、纹理尺寸限制、可动画方向盘和实时后视镜。
+
+2014 Ferrari LaFerrari
+作者：Ddiaz Design
+许可：Creative Commons Attribution 4.0
+许可地址：https://creativecommons.org/licenses/by/4.0/
+来源：https://sketchfab.com/3d-models/2014-ferrari-laferrari-8b46fa49718647de846387ef4c1e95b3
+修改：尺寸归一、接地及朝向修正、轮组简化、材质分组、纹理尺寸限制、方向盘与后视镜；省略不兼容 UV1 的细织碳纤维法线输入。
+
+Crowd Cheering Sounds - 04 - Strong cheering - II - Short
+作者：Gregor Quendel — https://www.gregorquendel.com/
+许可：Creative Commons Attribution 4.0
+许可地址：https://creativecommons.org/licenses/by/4.0/
+来源：https://opengameart.org/content/free-crowd-cheering-sounds
+修改：原始音轨未编辑；游戏内降低播放音量。
+
+观众人体、皮肤、服装、头发
+作者：MakeHuman community; Data Collection AB, Joel Palmius, Jonas Hauquier and contributors
+许可：CC0 1.0
+许可地址：https://creativecommons.org/publicdomain/zero/1.0/
+来源：https://static.makehumancommunity.org/about/license.html
+修改：成年体型与有限面部变体、服装拟合、配色、实时骨骼和欢呼动作。未使用 MakeHuman 应用代码。
+
+植被、天空与城市实拍材质
+作者：Poly Haven contributors
+许可：CC0
+许可地址：https://polyhaven.com/license
+来源：https://polyhaven.com/a/tree_small_02 ; https://polyhaven.com/a/island_tree_02 ; https://polyhaven.com/a/grass_bermuda_01 ; https://polyhaven.com/a/sunflowers_puresky ; https://polyhaven.com/a/brick_wall_001 ; https://polyhaven.com/a/concrete_wall_006
+修改：植被重建为实时模型和模块化实例；材质用于原创城市建筑。
+
+Droid Sans Fallback
+作者：Copyright 2006–2010 Google Corp.
+许可：Apache License 2.0
+许可地址：https://www.apache.org/licenses/LICENSE-2.0
+来源：Ubuntu fonts-droid-fallback package; assets/fonts/Interface.ttf
+修改：字体未修改。完整许可证包含在安装包 assets/fonts/LICENSE-Apache-2.0.txt。
+
+Godot Engine 4.7.2
+作者：Godot Engine contributors; Juan Linietsky, Ariel Manzur
+许可：MIT
+许可地址：https://godotengine.org/license/
+来源：https://github.com/godotengine/godot
+修改：官方 Android 引擎模板。完整许可证见 assets/legal/Godot-MIT.txt。
+
+AEROGRID 原创游戏内容
+作者：AEROGRID project
+许可：本下载游戏免费供个人非商业游玩；各第三方素材许可分别适用。
+许可地址：
+来源：模块化赛道、城市建筑、驾驶舱、武器、驾驶员双臂、游戏规则和公开版 AEROGRID GT 由项目生成。
+修改：公开下载版保留赛事规则、存档格式和赛车性能；内部车型 ID 保持升级兼容。
+
+Godot 引擎完整 MIT 许可证：Godot-MIT.txt
+字体完整 Apache 2.0 许可证：LICENSE-Apache-2.0.txt
