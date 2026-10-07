@@ -92,7 +92,8 @@
         "low/30 preferences preserved",
         "actual accelerator touch reaches 101 km/h",
         "Back pause freezes timer at 4.399 seconds across two seconds"
-      ]
+      ],
+      "final_apk_check_count": 6
     },
     {
       "android": "15",
@@ -118,7 +119,8 @@
         "Back freezes timer at 7.016 seconds",
         "background return stays paused",
         "all 16 progress fields and high/60 preference preserved"
-      ]
+      ],
+      "runtime_check_count": 15
     }
   ],
   "artifact_privacy_review": {
@@ -134,5 +136,10 @@
     "30/60 FPS controls specify a target, not a promise that every phone sustains that rate.",
     "ARM32/x86 native libraries target legacy 4 KB page devices; 16 KB alignment is verified for 64-bit ABIs only."
   ],
-  "asset_substitution": "Public build uses original AEROGRID GT geometry, with the original internal vehicle ID, game performance and save compatibility. The original reference model is not publicly distributed."
+  "asset_substitution": "Public build uses original AEROGRID GT geometry, with the original internal vehicle ID, game performance and save compatibility. The original reference model is not publicly distributed.",
+  "observed_warnings": [
+    "Shader cache mismatch caused a shader to be rebuilt during update; preserved in both emulator reports.",
+    "Android 7 log contained a Vulkan capability warning while the game ran using OpenGL ES.",
+    "An early Android 7 run recorded a FileProvider warning from the official export template; preserved in local evidence."
+  ]
 }
